@@ -79,10 +79,10 @@ def main(args):
                 print("New Record!", "Score:", score, "; P1:", a1, "; P2:", a2, "; P3:", a3, "; Numbers:", nums, "; Subscore:", subscore)
 
     # $ python3 main.py
-    # New Record! Score: 0 ; P1: 27136 ; P2: 10825 ; P3: 48144 ; Numbers: [3, 8, 18, 23, 28, 43]
-    # New Record! Score: 25 ; P1: 42519 ; P2: 91055 ; P3: 87388 ; Numbers: [1, 6, 21, 26, 31, 41]
-    # New Record! Score: 50 ; P1: 25995 ; P2: 41946 ; P3: 85014 ; Numbers: [1, 7, 13, 19, 25, 31]
-    # New Record! Score: 75 ; P1: 77034 ; P2: 31576 ; P3: 28225 ; Numbers: [9, 12, 26, 29, 40, 43]
+    # New Record! Score: 0 ; P1: 18524 ; P2: 52699 ; P3: 46888 ; Numbers: [2, 6, 10, 35, 39, 43] ; Subscore: 25
+    # New Record! Score: 25 ; P1: 1485 ; P2: 38263 ; P3: 89057 ; Numbers: [10, 16, 23, 29, 36, 42] ; Subscore: 25
+    # New Record! Score: 50 ; P1: 51984 ; P2: 97946 ; P3: 38121 ; Numbers: [3, 10, 15, 22, 29, 41] ; Subscore: 50
+    # New Record! Score: 75 ; P1: 41103 ; P2: 69037 ; P3: 55136 ; Numbers: [4, 11, 18, 28, 35, 42] ; Subscore: 75
 
     return 0;
 
