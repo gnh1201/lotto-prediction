@@ -3,7 +3,6 @@
 
 # Lotto prediction
 # Go Namhyeon <gnh1201@gmail.com>
-# 2020-12-24
 
 data = {
     '942': [10, 12, 18, 35, 42, 43],
@@ -73,9 +72,11 @@ def main(args):
         a3 = result[3]
 
         if _score > score:
-            score = _score
             nums = generate(params[0], a1, a2, a3)
-            print("New Record!", "Score:", score, "; P1:", a1, "; P2:", a2, "; P3:", a3, "; Numbers:", nums)
+            subscore = simulate(a1, a2, a3, nums)[0]
+            if subscore > 0:
+                score = _score
+                print("New Record!", "Score:", score, "; P1:", a1, "; P2:", a2, "; P3:", a3, "; Numbers:", nums, "; Subscore:", subscore)
 
     # $ python3 main.py
     # New Record! Score: 0 ; P1: 27136 ; P2: 10825 ; P3: 48144 ; Numbers: [3, 8, 18, 23, 28, 43]
