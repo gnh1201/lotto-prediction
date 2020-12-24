@@ -15,7 +15,7 @@ data = {
 params = [943, 938] # 예측회차, 시작회차
 
 def mod(seed):
-    return 1 + (seed % 45)
+    return 45 - (seed % 45)
 
 def test(a, b):
     score = 0
